@@ -1,5 +1,6 @@
 import React from 'react';
 import Contact from './components/Contact';
+import ContactList from './components/ContactList';
 
 function App() {
   return (
@@ -21,9 +22,11 @@ function App() {
       name="Mariska" 
       online= {true}
       />
-
+      <ContactList/>
     </div>
   );
 }
 
 export default App;
+
+
